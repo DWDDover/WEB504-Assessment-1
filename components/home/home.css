@@ -1,0 +1,83 @@
+body {
+    background-image: url('../../assets/images/background-images/home-page-bg.svg');
+    background-repeat: no-repeat;
+    background-size: 250%;
+    background-position: right top;
+    background-color: #F0EBE9;
+    font-family: "Barlow", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.home-container {
+    display: grid;
+    grid-template-rows: 100px 400px 400px 100px;
+    grid-template-columns: 7rem 14fr 1rem;
+    grid-template-areas: 
+    'header header header'
+    'aside main .'
+    '. main .'
+    '. . .';
+}
+
+.home-header {
+    grid-area: header;
+}
+
+.about {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+p {
+    padding: 2rem;
+}
+
+.home-nav-bar {
+    grid-area: aside;
+}
+
+.home-textbox {
+    grid-area: main;
+    background-color: white;
+}
+
+/* .home-footer {
+    grid-area: footer;
+    color: white;
+    background-color: black;
+    padding: none;
+    margin: none;
+} */
+
+a {
+    text-decoration: none;
+}
+
+.nav-container {
+    text-align: center;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    'home'
+    'skills'
+    'projects'
+    'contact';
+}
+
+.homebutton {
+    grid-area: home;
+}
+
+.skillsbutton {
+    grid-area: skills;
+}
+
+.projectsbutton {
+    grid-area: projects;
+}
+
+.contactbutton {
+    grid-area: contact;
+}
