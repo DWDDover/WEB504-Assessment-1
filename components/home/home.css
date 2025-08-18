@@ -19,13 +19,13 @@ a {
 
 .home-container {
     display: grid;
-    grid-template-rows: 140px 1fr 1fr 1rem;
+    grid-template-rows: 140px 1fr 1fr 2rem;
     grid-template-columns: 1rem 1fr 4fr 1rem;
     grid-template-areas: 
     '. header header .'
     '. aside main .'
     '. aside main .'
-    '. footer footer .';
+    'footer footer footer footer';
 }
 
 @media only screen and (max-width: 700px) {
@@ -87,11 +87,19 @@ a {
 }
 
 .home-footer {
+    color: white;
     grid-area: footer;
     font-weight: 500;
     position: static;
     bottom: 0;
     margin-top: auto;
+    background-color: #2a2929;
+    padding: 0px;
+    display: block;
+}
+
+.home-footer p {
+    margin: 5px;
 }
 
 .nav-container {
@@ -145,4 +153,8 @@ a {
 .contactbutton {
     grid-area: contact;
     background-color: #FBAA19;
+}
+
+.links {
+    text-align: right;
 }
