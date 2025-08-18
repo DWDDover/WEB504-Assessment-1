@@ -111,11 +111,15 @@ a {
     color: white;
 }
 
-.nav-container a {
+.nav-container a div {
     justify-content: center;
     vertical-align: middle;
     margin: 5px;
     line-height: 100px;
+    text-decoration: none;
+    color: white;
+    padding: 0px;
+    margin: 0px;
 }
 
 .nav-container div:hover {
