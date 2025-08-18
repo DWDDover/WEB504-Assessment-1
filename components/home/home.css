@@ -6,6 +6,8 @@ body {
     font-family: "Barlow", sans-serif;
     font-weight: 700;
     font-style: normal;
+    padding: 0px;
+    margin: 0px;
 }
 
 a {
@@ -20,12 +22,14 @@ a {
 .home-container {
     display: grid;
     grid-template-rows: 140px 1fr 1fr 2rem;
-    grid-template-columns: 1rem 1fr 4fr 1rem;
+    grid-template-columns: 2rem 1fr 4fr 2rem;
     grid-template-areas: 
     '. header header .'
     '. aside main .'
     '. aside main .'
     'footer footer footer footer';
+    padding: 0px;
+    margin: 0px;
 }
 
 @media only screen and (max-width: 700px) {
@@ -39,6 +43,15 @@ a {
         margin: 0px;
         padding: 0px;
     }
+    .text-area {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 250px 50px 1fr;
+    grid-template-areas: 
+    'img'
+    'title'
+    'contents';
+}
 }
 
 .home-header {
@@ -55,16 +68,6 @@ a {
 .home-nav-bar {
     grid-area: aside;
     background-color: #F0EBE9;
-}
-
-.text-area {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 250px 50px 1fr;
-    grid-template-areas: 
-    'img'
-    'title'
-    'contents';
 }
 
 .about-me {
@@ -84,6 +87,13 @@ a {
     background-color: rgb(255,255,255,0.9);
     min-width: 50%;
     padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 180px 50px 1fr;
+    grid-template-areas: 
+    'img'
+    'title'
+    'contents';
 }
 
 .home-footer {
@@ -100,6 +110,18 @@ a {
 
 .home-footer p {
     margin: 5px;
+}
+
+.home-footer p a {
+    color: white;
+}
+
+.home-footer p a:visited {
+    color: white;
+}
+
+.home-footer p a:active {
+    color: rgb(216, 216, 216);
 }
 
 .nav-container {
@@ -155,6 +177,11 @@ a {
     background-color: #FBAA19;
 }
 
+.copyright {
+    font-size:10pt;
+}
+
 .links {
     text-align: right;
+    font-size: 20pt;
 }
