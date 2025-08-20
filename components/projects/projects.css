@@ -6,12 +6,12 @@
 body {
     display: flex;
     height: 100vh;
-    min-width: 400px;
+    min-width: 150px;
     flex-direction: column;
     background-image: url('../../assets/images/background-images/skills-page-bg.svg');
     background-repeat: no-repeat;
     background-position: top right;
-    background-color: #F0EBE9;
+    background-color: var(--bbg-color);
     font-family: "Barlow", sans-serif;
     font-weight: 700;
     font-style: normal;
