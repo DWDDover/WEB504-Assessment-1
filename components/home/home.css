@@ -17,11 +17,9 @@ body {
     margin: 0px;
 }
 
-
 a {
     text-decoration: none;
 }
-
 
 .home-nav-bar a:visited {
     color: white;
@@ -40,8 +38,6 @@ a {
     padding: 0px;
     margin: 0px;
 }
-
-
 
 .home-header {
     grid-area: header;
@@ -89,6 +85,11 @@ a {
 .home-footer {
     color: white;
     grid-area: footer;
+    display: grid;
+    grid-template-rows 2fr 1fr;
+    grid-template-areas: 
+    'links'
+    'copyright';
     font-weight: 500;
     bottom: 0;
     height: 80px;
@@ -97,7 +98,6 @@ a {
     margin-top: auto;
     background-color: #2a2929;
     padding: 0px;
-    display: table-cell;
 }
 
 .home-footer p {
@@ -170,11 +170,13 @@ a {
 }
 
 .copyright {
+    grid-area: copyright;
     font-size:10pt;
     vertical-align: bottom;
 }
 
 .links {
+    grid-area: links;
     text-align: right;
     font-size: 16pt;
 }
