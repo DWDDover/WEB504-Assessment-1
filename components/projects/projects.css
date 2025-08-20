@@ -11,12 +11,16 @@ body {
     background-image: url('../../assets/images/background-images/skills-page-bg.svg');
     background-repeat: no-repeat;
     background-position: top right;
-    background-color: var(--bbg-color);
+    background-color: var(--bg-color);
     font-family: "Barlow", sans-serif;
     font-weight: 700;
     font-style: normal;
     padding: 0px;
     margin: 0px;
+}
+
+h1 {
+    margin: 2rem;
 }
 
 a {
@@ -37,8 +41,14 @@ a {
 }
 
 .home-header {
-    line-height: 80px;
-    margin-left: 2rem;
+    line-height: 2rem;
+    background-color: #2a2929;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    margin: 2rem;
 }
 
 .profile-img {
