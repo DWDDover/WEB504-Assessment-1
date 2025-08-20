@@ -185,15 +185,6 @@ a {
         margin: 0px;
         padding: 0px;
     }
-    .text-area {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 10px 1fr 3fr;
-    grid-template-areas: 
-    'img'
-    'title'
-    'contents';
-    }
     .home-footer {
     height: 80px;
     position: auto;
