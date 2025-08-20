@@ -151,7 +151,7 @@ a {
 
 .homebutton {
     grid-area: home;
-    background-color: #B51E42;
+    background-color: var(--color1);
 }
 
 .skillsbutton {
