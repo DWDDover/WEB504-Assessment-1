@@ -52,11 +52,6 @@ a {
     grid-area: aside;
 }
 
-.about-me {
-    line-height: 0px;
-    grid-area: title;
-}
-
 .content {
     grid-area: contents;
 }
