@@ -57,6 +57,17 @@ a {
     background-color:  rgb(255,255,255,0.9);
     padding: 2rem;
     margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.see-more {
+    color: var(--color2);
+}
+
+.project-thumb {
+    max-width: 400px;
+    max-height: 200px;
 }
 
 .text-area {
@@ -142,17 +153,17 @@ a {
 
 .skillsbutton {
     grid-area: skills;
-    background-color: #ED193D;
+    background-color: var(--color2);
 }
 
 .projectsbutton {
     grid-area: projects;
-    background-color: #EF3E37;
+    background-color: var(--color3);
 }
 
 .contactbutton {
     grid-area: contact;
-    background-color: #FBAA19;
+    background-color: var(--color4);
 }
 
 .copyright {
