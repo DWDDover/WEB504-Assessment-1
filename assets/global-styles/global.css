@@ -43,34 +43,45 @@ a:visited {
 .home-header {
     display: flex;
     flex-direction: row;
+    width: 100vw;
     line-height: 2rem;
-    background-color: #2a2929;
+    background-color: var(--darkbg);
     color: white;
     margin-bottom: 2rem;
+    align-items: center;
 }
 
 .title-container:hover {
     color: transparent;
-    background: linear-gradient(90deg, var(--color1), var(--color2), var(--color3), var(--color4), var(--color1)); 
+    background: repeating-linear-gradient(90deg, var(--color1), var(--color2), var(--color3), var(--color4), var(--color3), var(--color2), var(--color1)); 
     background-size: 50%;
     background-position: 0 50%;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: animate-background 1s infinite alternate linear;
+    animation: animate-background 1s infinite linear forwards;
 }
 
 @keyframes animate-background {
     0% {
-        background-position: 0 50%;
+        background-position: 0 100%;
     }
     100% {
-        background-position: 80% 50%;
+        background-position: 100% 200%;
     }
 }
 
 h1 {
     margin: 2rem;
+}
+
+.logo {
+    max-height: 4rem;
+    border-radius: 50%;
+    float: right;
+    position: absolute;
+    right: 0;
+    margin-right: 2rem;
 }
 
 .profile-img {
@@ -96,7 +107,7 @@ h1 {
     height: 80px;
     width: 100%;
     margin-top: auto;
-    background-color: #2a2929;
+    background-color: var(--darkbg);
     padding: 0px;
 }
 
