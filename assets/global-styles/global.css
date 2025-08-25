@@ -160,6 +160,11 @@ h1 {
     color: white;
 }
 
+.nav-container div:active {
+    background-color: white;
+    color: black;
+}
+
 .homebutton {
     grid-area: home;
     background-color: var(--color1);
