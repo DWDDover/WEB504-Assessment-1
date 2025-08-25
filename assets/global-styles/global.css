@@ -194,3 +194,14 @@ h1 {
 
 @media only screen and (max-width: 600px) {
     .home-container {
+        grid-template-areas: 
+        'aside aside main main'
+        'aside aside main main';
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .logo {
+        display: none;
+    }
+}
