@@ -63,10 +63,6 @@ select {
   }
 }
 
-a:focus {
-  border: none;
-}
-
 /* resets for video player slider and controls*/
 input[type='range'] {
     -webkit-appearance: none;
