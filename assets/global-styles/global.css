@@ -150,8 +150,8 @@ h1 {
     margin: 0px;
 }
 
-.nav-container div:hover {
-    background-color: black;
+.nav-container div:hover, .nav-container div:focus {    
+    background-color: var(--darkbg);
     color: white;
 }
 
