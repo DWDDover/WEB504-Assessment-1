@@ -10,12 +10,10 @@
 
 .contact-container {
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2rem 2fr;
+    grid-template-rows: 1fr;
     grid-template-areas: 
-    'form details'
-    'form details'
-    'form links';
+    'form . details'
 }
 
 p {
@@ -31,7 +29,41 @@ p {
     font-size: inherit;
 }
 
-.links {
-    grid-area: links;
-    font-size: inherit;
+.input {
+  background-color: #05060f0a;
+  min-width: 20rem;
+  line-height: 2rem;
+  border-radius: .5rem;
+  border: 2px solid transparent;
+  transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s,background .2s cubic-bezier(.25,.01,.25,1) 0s;
+}
+
+.input:hover, .input:focus, .input-group:hover .input {
+  outline: none;
+  border-color: var(--darkbg);
+}
+
+.input-group:hover .label, .input:focus {
+  color: #05060fc2;
+}
+
+.submit-button {
+    background-color: var(--darkbg);
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .hidden {
+        display: inherit;
+        margin-top: 2rem;
+    }
 }

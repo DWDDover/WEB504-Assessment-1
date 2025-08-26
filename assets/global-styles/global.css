@@ -192,6 +192,11 @@ h1 {
     font-size: 16pt;
 }
 
+.solid {
+    color: black;
+    height: 1px;
+}
+
 @media only screen and (max-width: 600px) {
     .home-container {
         grid-template-areas: 
@@ -208,3 +213,4 @@ h1 {
         display: none;
     }
 }
+
