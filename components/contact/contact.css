@@ -31,7 +31,7 @@ p {
 
 .input {
   background-color: #05060f0a;
-  min-width: 20rem;
+  min-width: 15rem;
   line-height: 2rem;
   border-radius: 0.5rem;
   border: 2px solid transparent;
@@ -59,7 +59,7 @@ p {
     color: white;
     border-radius: 0.5rem;
     padding: 1rem;
-    min-width: 20rem;
+    min-width: 15rem;
 }
 
 .submit-button:hover, .submit-button:focus {
