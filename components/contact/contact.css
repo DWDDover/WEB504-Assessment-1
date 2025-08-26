@@ -1,7 +1,3 @@
-.content {
-    grid-area: contents;
-}
-
 .text-area {
     height: 100%;
     grid-area: main;
@@ -10,6 +6,32 @@
     font-style: normal;
     background-color: rgb(255,255,255,0.9);
     padding: 2rem;
-    display: flex;
-    flex-direction: column;
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    'form details'
+    'form details'
+    'form links';
+}
+
+p {
+    font-size: inherit;
+}
+
+.contact-form {
+    grid-area: form;
+}
+
+.details {
+    grid-area: details;
+    font-size: inherit;
+}
+
+.links {
+    grid-area: links;
+    font-size: inherit;
 }
