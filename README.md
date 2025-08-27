@@ -5,23 +5,23 @@
 The purpose of this website is to display information about the owner, their skills, overviews of their projects, and means for contacting them
 
 ## Features:
-Responsive design
-About Page
-SKills page and descriptions
-Projects page with explantion of projects, and images and video where applicable
-Interactive elements
-No jump links
+Responsive design<br>
+About Page<br>
+SKills page and descriptions<br>
+Projects page with explantion of projects, and images and video where applicable<br>
+Interactive elements<br>
+No jump links<br>
 
 ## Technologies Used:
-HTML
+HTML<br>
 CSS
 
 ## Deployment
-Deployment with github pages:
+Deployment with github pages:<br>
 https://docs.github.com/en/pages/quickstart
 
 ## License
-This project is distributed under the MIT license, located in 
+This project is distributed under the MIT license, located in<br>
 \WEB504-Assessment-1\LICENSE
 
 ## Author
