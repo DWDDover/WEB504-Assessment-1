@@ -80,13 +80,6 @@ h1 {
     margin-right: 2rem;
 }
 
-.profile-img {
-    grid-area: img;
-    max-height: 200px;
-    max-width: 200px;
-    border-radius: 80%;
-}
-
 .home-nav-bar {
     grid-area: aside;
 }

@@ -3,8 +3,6 @@
     background-color:  rgb(255,255,255,0.9);
     padding: 2rem;
     margin-bottom: 2rem;
-    display: flex;
-    flex-direction: column;
 }
 
 .see-more {
@@ -12,9 +10,17 @@
     text-decoration: underline;
 }
 
-.project-thumb {
+.img {
+    grid-area: img;
     max-width: 400px;
     max-height: 200px;
+    place-self: center;
+    border: 6px solid var(--darkbg);
+    outline: 6px solid var(--color4);
+}
+
+.description {
+    grid-area: description;
 }
 
 .text-area {
@@ -26,4 +32,12 @@
     /* background-color: rgb(255,255,255,0.9); */
     display: flex;
     flex-direction: column;
+}
+
+.project {
+    display: grid;
+    grid-template-columns: 1fr 2rem 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    'description . img';
 }
