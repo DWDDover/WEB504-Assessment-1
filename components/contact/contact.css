@@ -13,11 +13,7 @@
     grid-template-columns: 1fr 2rem 2fr;
     grid-template-rows: 1fr;
     grid-template-areas: 
-    'form . details'
-}
-
-p {
-    font-size: inherit;
+    'form . details';
 }
 
 .contact-form {
@@ -70,6 +66,10 @@ p {
     background-color: white;
     color: black;
     outline: 2px solid;
+}
+
+.contact-links a {
+    font-size: 24pt;
 }
 
 @media only screen and (max-width: 600px) {

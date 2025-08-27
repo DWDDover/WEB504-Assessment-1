@@ -14,7 +14,8 @@ No jump links<br>
 
 ## Technologies Used:
 HTML<br>
-CSS
+CSS<br>
+JavaScript
 
 ## Deployment
 Deployment with github pages:<br>
