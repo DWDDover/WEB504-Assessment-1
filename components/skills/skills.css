@@ -29,22 +29,27 @@
     margin: 0.2em;
     text-align: center;
     transition: transform 0.3s ease-in-out;
-        border-radius: 0.5em;
+    border-radius: 0.5em;
+    margin-top: 2em;
 }
 
 .skill:hover {
         transform: scale(1.05);
-        animation: shadow-pulse 3s infinite alternate;
+        animation: shadow-pulse 0.8s infinite alternate;
     }
 
     @keyframes shadow-pulse {
-        0% {box-shadow: 0 0 1em 0.5em var(--color1);}
+        /* 0% {box-shadow: 0 0 1em 0.5em var(--color1);}
         15% {box-shadow: 0 0 1em 0.5em var(--color2);}
         30% {box-shadow: 0 0 1em 0.5em var(--color3);}
         45% {box-shadow: 0 0 1em 0.5em var(--color4);}
         60% {box-shadow: 0 0 1em 0.5em var(--color3);}
         75% {box-shadow: 0 0 1em 0.5em var(--color2);}
-        100% {box-shadow: 0 0 1em 0.5em var(--color1);}
+        100% {box-shadow: 0 0 1em 0.5em var(--color1);} */
+        0% {outline: 5px solid var(--color2);}
+        50% {outline: 5px solid var(--color4);}
+        100% {outline: 5px solid var(--color2);}
+        50% {outline: 5px solid var(--color4);}
     }
 
 h3 {
