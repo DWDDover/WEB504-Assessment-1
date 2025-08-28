@@ -5,8 +5,26 @@
 }
 
 .see-more {
-    color: var(--color2);
-    text-decoration: underline;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    background-color: var(--color3);
+    color: white;
+    border-radius: 0.5rem;
+    padding: 0.5em;
+    width: 10em;
+    text-align: center;
+    place-self: center;
+}
+
+.see-more:hover, .see-more:focus {
+    background-color: var(--darkbg);
+}
+
+.see-more:active {
+    background-color: white;
+    color: black;
+    outline: 2px solid;
 }
 
 .thumb-img {
@@ -42,6 +60,7 @@
     display: grid;
     grid-template-columns: 1fr 2rem 1fr;
     grid-template-rows: 1fr;
+    
     grid-template-areas:
     'description . img';
 }
