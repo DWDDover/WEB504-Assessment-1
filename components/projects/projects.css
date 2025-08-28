@@ -2,7 +2,6 @@
     grid-area: contents;
     background-color:  rgb(255,255,255,0.9);
     margin-bottom: 2rem;
-    max-height: 300px;
 }
 
 .see-more {
@@ -12,7 +11,7 @@
 
 .thumb-img {
     grid-area: img;
-    height: 300px;
+    height: 100%;
     width: 100%;
     /* border: 2px solid black; */
     border-radius: 0 0.5em 0.5em 0;

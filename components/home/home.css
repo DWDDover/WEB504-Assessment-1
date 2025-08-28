@@ -25,6 +25,7 @@
     max-width: 300px;
     place-self: center;
     border: 2px solid black;
+    margin-top: 2em;
 }
 
 @media only screen and (max-width: 900px) {
