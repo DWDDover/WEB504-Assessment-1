@@ -107,7 +107,7 @@ h1 {
     bottom: 0;
     height: 80px;
     width: 100%;
-    margin-top: auto;
+    margin-top: 2em;
     background-color: var(--darkbg);
     padding: 0px;
     border-top: 1px solid black;
@@ -125,8 +125,12 @@ h1 {
     color: white;
 }
 
+.home-footer p a:hover, .home-footer p a:focus {
+    color: var(--color3);
+}
+
 .home-footer p a:active {
-    color: rgb(216, 216, 216);
+    color: var(--color4);
 }
 
 .nav-container {

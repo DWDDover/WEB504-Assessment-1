@@ -18,6 +18,7 @@
 
 .contact-form {
     grid-area: form;
+    place-self: center;
 }
 
 .details {
@@ -70,6 +71,14 @@
 
 .contact-links a {
     font-size: 24pt;
+}
+
+.contact-links a:hover, .contact-links a:focus {
+    color: var(--color3)
+}
+
+.contact-links a:active {
+    color: var(--color4);
 }
 
 @media only screen and (max-width: 600px) {
