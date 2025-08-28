@@ -14,11 +14,11 @@
     grid-template-rows: 1fr;
     grid-template-areas: 
     'form . details';
+    padding: 2em;
 }
 
 .contact-form {
     grid-area: form;
-    place-self: center;
 }
 
 .details {
