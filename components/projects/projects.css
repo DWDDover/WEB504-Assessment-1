@@ -16,7 +16,6 @@
     max-height: 200px;
     place-self: center;
     border: 6px solid var(--darkbg);
-    outline: 6px solid var(--color4);
 }
 
 .description {

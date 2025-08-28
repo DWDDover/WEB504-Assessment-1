@@ -1,5 +1,4 @@
 .content {
-    grid-area: contents;
     background-color:  rgb(255,255,255,0.9);
     padding: 2rem;
     margin-bottom: 2rem;
@@ -11,7 +10,47 @@
     font-family: "Barlow", sans-serif;
     font-weight: 500;
     font-style: normal;
-    /* background-color: rgb(255,255,255,0.9); */
     display: flex;
     flex-direction: column;
+}
+
+.skill-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.skill {
+    width: 150px;
+    height: 200px;
+    background-color: var(--darkbg);
+    color: white;
+    padding: 0.5em;
+    margin: 0.2em;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+        border-radius: 0.5em;
+}
+
+.skill:hover {
+        transform: scale(1.05);
+        animation: shadow-pulse 3s infinite alternate;
+    }
+
+    @keyframes shadow-pulse {
+        0% {box-shadow: 0 0 1em 0.5em var(--color1);}
+        15% {box-shadow: 0 0 1em 0.5em var(--color2);}
+        30% {box-shadow: 0 0 1em 0.5em var(--color3);}
+        45% {box-shadow: 0 0 1em 0.5em var(--color4);}
+        60% {box-shadow: 0 0 1em 0.5em var(--color3);}
+        75% {box-shadow: 0 0 1em 0.5em var(--color2);}
+        100% {box-shadow: 0 0 1em 0.5em var(--color1);}
+    }
+
+h3 {
+    margin: 0.2em
+}
+
+.skill-icon {
+    font-size: 72pt;
 }

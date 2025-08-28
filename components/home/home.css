@@ -25,7 +25,6 @@
     max-width: 300px;
     place-self: center;
     border: 6px solid var(--darkbg);
-    outline: 6px solid var(--color4);
 }
 
 @media only screen and (max-width: 900px) {
