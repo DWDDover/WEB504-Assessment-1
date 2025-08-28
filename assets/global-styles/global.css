@@ -1,7 +1,7 @@
 body {
     display: flex;
     height: 100vh;
-    min-width: 400px;
+    min-width: 300px;
     flex-direction: column;
     background-image: url('../../assets/images/background-images/skills-page-bg.svg');
     background-repeat: no-repeat;

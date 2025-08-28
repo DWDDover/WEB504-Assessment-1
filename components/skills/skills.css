@@ -54,3 +54,13 @@ h3 {
 .skill-icon {
     font-size: 72pt;
 }
+
+@media only screen and (max-width: 600px) {
+    .skill-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .skill {
+        margin: 2em;
+    }
+}
