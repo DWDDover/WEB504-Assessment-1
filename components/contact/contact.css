@@ -32,7 +32,9 @@
   line-height: 2rem;
   border-radius: 0.5rem;
   border: 2px solid transparent;
-  transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s,background .2s cubic-bezier(.25,.01,.25,1) 0s;
+  transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s,
+   color .3s cubic-bezier(.25,.01,.25,1) 0s, 
+   background .2s cubic-bezier(.25,.01,.25,1) 0s;
 }
 
 .input:hover, .input:focus, .input-group:hover .input {
