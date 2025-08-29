@@ -214,16 +214,14 @@ h1 {
 
 @media only screen and (max-width: 600px) {
     .home-container {
-        grid-template-areas: 
-        'aside aside main main'
-        'aside aside main main';
-    }
-    body {
-        background-position: 90%;
+    grid-template-columns: 0.5rem 1fr 4fr 0.5rem;
     }
     .home-nav-bar {
     grid-area: aside;
     margin-right: 0;
+    }
+    body {
+        background-position-x: 90%;
     }
 }
 
