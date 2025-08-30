@@ -3,9 +3,9 @@
     background-color:  rgb(255,255,255);
     margin-bottom: 2rem;
     overflow: hidden;
-    display: flex;
     padding: 2em;
-    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
 }
 
 .see-more {
@@ -21,17 +21,24 @@
     place-self: left;
 }
 
-.images {
-    grid-area: images;
+.img-container {
     display: flex;
-    flex-direction: column;
-    object-fit: cover;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .project-img {
-    border: 2px solid black;
-    margin-bottom: 2em;
-    max-width: 450px;
+    grid-area: img;
+    /* border: 2px solid black; */
+    margin: 1em;
+    width: 400px;
+    object-fit: contain;
+}
+
+.project-vid {
+    width: 400px;
+    margin: 1em;
+    
 }
 
 .see-more:hover, .see-more:focus {
@@ -44,10 +51,6 @@
     outline: 2px solid;
 }
 
-.description {
-    grid-area: description;
-}
-
 .text-area {
     height: 100%;
     grid-area: main;
@@ -57,10 +60,6 @@
     /* background-color: rgb(255,255,255,0.9); */
     display: flex;
     flex-direction: column;
-}
-
-.project {
-
 }
 
 @media only screen and (max-width: 900px) {
