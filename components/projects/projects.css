@@ -1,6 +1,6 @@
 .content {
     grid-area: contents;
-    background-color:  rgb(255,255,255,0.9);
+    background-color:  rgb(255,255,255);
     margin-bottom: 2rem;
     overflow: hidden;
     max-height: 400px;
@@ -36,7 +36,7 @@
     /* border: 2px solid black; */
     border-radius: 0 0.5em 0.5em 0;
     object-fit: cover;
-    mask: linear-gradient(90deg, transparent, black, black);
+    mask: linear-gradient(90deg, transparent, black);
     background-color: white;
     /* filter: blur(1.5px); */
 }
