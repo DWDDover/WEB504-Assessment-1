@@ -17,6 +17,7 @@
     border: none;
     background-color: var(--color3);
     color: white;
+    max-width: 14em;
     border-radius: 0.5rem;
     padding: 0.5em;
     text-align: center;
