@@ -16,7 +16,6 @@
     color: white;
     border-radius: 0.5rem;
     padding: 0.5em;
-    width: 8em;
     text-align: center;
     place-self: left;
 }
@@ -31,7 +30,7 @@
     grid-area: img;
     /* border: 2px solid black; */
     margin: 1em;
-    width: 400px;
+    width: 300px;
     object-fit: contain;
 }
 
