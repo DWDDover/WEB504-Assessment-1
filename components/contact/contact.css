@@ -106,7 +106,8 @@
         min-width: 100%;
     }
 
-    .input {
+    .text-area
+     {
         min-width: 100%;
     }
 }
