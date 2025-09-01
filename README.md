@@ -20,6 +20,8 @@ JavaScript
 ## Deployment
 Deployment with github pages:<br>
 https://docs.github.com/en/pages/quickstart
+The index.html in the root of the repository will be set as the default main page of the github pages link. This file will automatically redirect the user to the home page.
+The default URL will be dwddover.github.io
 
 ## License
 This project is distributed under the MIT license, located in<br>
