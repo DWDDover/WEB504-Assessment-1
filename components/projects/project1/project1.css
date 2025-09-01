@@ -2,7 +2,6 @@
     grid-area: contents;
     background-color:  rgb(255,255,255);
     margin-bottom: 2rem;
-    overflow: hidden;
     padding: 2em;
     display: flex;
     flex-direction: column;
@@ -32,6 +31,16 @@
     margin: 1em;
     width: 300px;
     object-fit: contain;
+}
+
+.project-img:hover{
+    border: 1px solid black;
+    transition: all .3s ease-in;
+    opacity: 1;
+    transform: scale(2);
+    -ms-transform: scale(2);
+    -webkit-transform: scale(2);
+
 }
 
 .project-vid {

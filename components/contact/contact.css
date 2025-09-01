@@ -93,4 +93,20 @@
         display: inherit;
         margin-top: 2rem;
     }
+
+    .input {
+        min-width: 100%;
+    }
+
+    .submit-button {
+        min-width: 100%;
+    }
+
+    .contact-form {
+        min-width: 100%;
+    }
+
+    .input {
+        min-width: 100%;
+    }
 }
